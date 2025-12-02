@@ -18,3 +18,8 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 - **Simple `call_llm()` wrapper** for HTTP requests  
 - **Lightweight** and runs locally with no GPU  
 
+## 💻 Demo
+
+## 🧰 Tools and Dependencies
+- Virtual
+
