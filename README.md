@@ -45,13 +45,13 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 *🧰 Tools and Dependencies*
 
-[x] Ensure Python (>=3.8) is installed.
+- [x] Ensure Python (>=3.8) is installed.
 
-[x] Create a virtual environment (e.g., python -m venv chatbot_env, activate it).
+- [x] Create a virtual environment (e.g., python -m venv chatbot_env, activate it).
 
-[x] Ensure you are working on a Linux Environment
+- [x] Ensure you are working on a Linux Environment
 
-[x] Install required packages:
+- [x] Install required packages:
 
 - If working from a Linux Environment:
 
