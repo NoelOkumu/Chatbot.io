@@ -29,7 +29,6 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 ---
 # ✨ Features
----
 
 - **Streamlit UI** with live chat interface  
 
@@ -39,17 +38,16 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 - **Lightweight** and runs locally with no GPU  
 
-# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## :laptop: Demo
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+## 🧑‍💻 Demo
 
 ![Bioinformatics Chatbot](https://drive.google.com/file/d/1dlbNz8J822lMk_KuF72fkyyL0A94R3AI/view?usp=sharing)
 
 **_Bioinformatics_ chatbot**
 
-## :toolkit: Installation
+## 🧰 Installation
 
-* Tools and Dependencies*
+* 🛠️ Tools and Dependencies*
 
 - [x] Ensure Python (>=3.8) is installed.
 
@@ -73,6 +71,7 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
   `streamlit hello`
 
+---
 ## 🏃 Scripting and Running the app*
 
 1. Create a venv environment:
@@ -87,7 +86,7 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 ApiFreeLLM is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, you can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP.
 
-   *_Configuration of our API request_*
+   *🧩_Configuration of our API request_*
 
 To avoid repeatedly changing hard-coded values like API URLs, it’s best practice to store them in a configuration file. This makes it easy to update or switch APIs, change environments, or add keys later without modifying your entire codebase. Typical configuration values include TIMEOUT, API_URL, and API_KEY. Since ApiFreeLLM doesn’t require an API key, it remains fully open-access and simple to integrate.
    
@@ -154,6 +153,9 @@ To avoid repeatedly changing hard-coded values like API URLs, it’s best practi
    _View Chatbot_app on web-browser_
 
 
+
+---
+# Project Structure
 
 
  
