@@ -1,21 +1,38 @@
 # 🧠 Simple Streamlit Chatbot App  
+
 A lightweight chatbot built using Streamlit and the Free LLM API. Includes a clean UI and configurable settings.
 
 ## 📚 Table of Contents
 1 [Features](#-features)
+
 2 [Demo](#-demo)
+
 3 [Installation](#-installation)
+ 
  - [Tools and Dependencies](#-tools and dependencies)
+ 
  - [Configuration](#-configuration)
+ 
  - [Scripting and Running the app](#-scripting and running app) 
-6 [Project Structure](#-project-structure)
-7 [How the Chatbot Works](#-how-the-chatbot-works)
-8 [License](#-license)
+
+4 [Project Structure](#-project-structure)
+
+5 [How the Chatbot Works](#-how-the-chatbot-works)
+
+ - [Fetching Results from APIFree (a Large Language Model(LLM))]
+
+ - [Creating a Graphic User using Streamlit for End-User)
+   
+6 [License](#-license)
 
 ## ✨ Features
+
 - **Streamlit UI** with live chat interface  
+
 - **API-based LLM responses** using APIFreeLLM  
+
 - **Simple `call_llm()` wrapper** for HTTP requests  
+
 - **Lightweight** and runs locally with no GPU  
 
 ## 💻 Demo
