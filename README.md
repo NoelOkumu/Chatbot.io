@@ -46,9 +46,11 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
    `source chatbot_env/bin/activate`
    
 3. Choose and Configure a [*_ApiFreeLLM_*](https://www.apifreellm.com/?utm_source=chatgpt.com) 
+
    ApiFreeLLM is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, you can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP.
 
    3.1 Configuration of our API request
+
    To avoid hard-coding values that require modification frequently, like an API URL, store them in a configuration file. The config file allows updating or swapping the API, changing environments, or adding keys later without editing the entire code base. Configuration would include TIMEOUT, API_URL and API_KEY. APIFreeLLM does not require an API key to use which makes it an open access program.
    
    - Create a config.py file `nano config.py`
@@ -58,7 +60,7 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
       API_KEY = None
       TIMEOUT = 5
    ```
-4. Building the Streamlit App
+5. Building the Streamlit App
    4.1 Create an app.py file `nano app.py`
    ```python
    import requests
