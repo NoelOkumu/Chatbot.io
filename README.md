@@ -27,15 +27,15 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 [x] Create a virtual environment (e.g., python -m venv chatbot_env, activate it).
 [x] Install required packages:
 
-If working from a Linux Environment:
-Install pip:
-`sudo apt-get install python3-pip`
-Create a venv environment:
-`python -m venv chatbot_env`
-Install required packages:
-`pip install streamlit requests`
-Check if streamlit installation worked:
-`streamlit hello`
+- If working from a Linux Environment:
+- Install pip:
+- `sudo apt-get install python3-pip`
+- Create a venv environment:
+- `python -m venv chatbot_env`
+- Install required packages:
+- `pip install streamlit requests`
+- Check if streamlit installation worked:
+- `streamlit hello`
 
 - *🏃 Running the app*
 
