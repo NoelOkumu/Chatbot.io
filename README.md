@@ -6,13 +6,11 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 2 [Demo](#-demo)
 3 [Installation](#-installation)
  - [Tools and Dependencies](#-tools and dependencies)
- - [Scripting and Running the app](#-scripting and running app)
-4 [Configuration](#-configuration)
-5 [Usage](#-usage)
+ - [Configuration](#-configuration)
+ - [Scripting and Running the app](#-scripting and running app) 
 6 [Project Structure](#-project-structure)
 7 [How the Chatbot Works](#-how-the-chatbot-works)
-8 [Example Interactions](#-example-interactions)
-9 [License](#-license)
+8 [License](#-license)
 
 ## ✨ Features
 - **Streamlit UI** with live chat interface  
@@ -21,47 +19,65 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 - **Lightweight** and runs locally with no GPU  
 
 ## 💻 Demo
+
 ![Bioinformatics Chatbot](https://drive.google.com/file/d/1dlbNz8J822lMk_KuF72fkyyL0A94R3AI/view?usp=sharing)
+
 **_Bioinformatics_ chatbot*
 
 ##  Installation
+
 *🧰 Tools and Dependencies*
+
 [x] Ensure Python (>=3.8) is installed.
+
 [x] Create a virtual environment (e.g., python -m venv chatbot_env, activate it).
+
+[x] Ensure you are working on a Linux Environment
+
 [x] Install required packages:
 
 - If working from a Linux Environment:
+
 1. Install pip:
+ 
  `sudo apt-get install python3-pip.`
+
 2. Install required packages:
+ 
  `pip install streamlit requests.`
-4. Check if the  streamlit installation worked:
- `streamlit hello`
+
+3. Check if the  streamlit installation worked:
+
+  `streamlit hello`
 
 - *🏃 Scripting and Running the app*
 1. Create a venv environment:
- `python -m venv chatbot_env`
+ 
+   `python -m venv chatbot_env`
 
 2. Activate the venv environment
+ 
    `source chatbot_env/bin/activate`
    
-3. Choose and Configure a [*_ApiFreeLLM_*](https://www.apifreellm.com/?utm_source=chatgpt.com) 
+3. Choose and Configure  [*_ApiFreeLLM_*](https://www.apifreellm.com/?utm_source=chatgpt.com) 
 
-   ApiFreeLLM is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, you can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP.
+ApiFreeLLM is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, you can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP.
 
    3.1 Configuration of our API request
 
-   To avoid hard-coding values that require modification frequently, like an API URL, store them in a configuration file. The config file allows updating or swapping the API, changing environments, or adding keys later without editing the entire code base. Configuration would include TIMEOUT, API_URL and API_KEY. APIFreeLLM does not require an API key to use which makes it an open access program.
+To avoid repeatedly changing hard-coded values like API URLs, it’s best practice to store them in a configuration file. This makes it easy to update or switch APIs, change environments, or add keys later without modifying your entire codebase. Typical configuration values include TIMEOUT, API_URL, and API_KEY. Since ApiFreeLLM doesn’t require an API key, it remains fully open-access and simple to integrate.
    
-   - Create a config.py file `nano config.py`
-   - Add script
+   - Create a config.py file `nano config.py` and add configuration settings based on APIFreeLLM requirements:
+   
    ```python
       API_URL = "https://apifreellm.com/api/chat"
       API_KEY = None
       TIMEOUT = 5
    ```
 5. Building the Streamlit App
-   4.1 Create an app.py file `nano app.py`
+
+   Create an app.py file `nano app.py`
+   
    ```python
    import requests
    import streamlit as st
@@ -107,6 +123,15 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
         return resp_json.get("error", "Unknown error")
 
    ```
+6. Running the app
 
+   `streamlit run app.py`
+
+   _View Chatbot_app on web-browser_
+
+
+
+
+ 
 
    
