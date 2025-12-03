@@ -2,7 +2,9 @@
 
 A lightweight chatbot built using Streamlit and the Free LLM API. Includes a clean UI and configurable settings.
 
+
 ## 📚 Table of Contents
+
 1 [Features](#-features)
 
 2 [Demo](#-demo)
@@ -25,7 +27,9 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
    
 7 [License](#-license)
 
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ✨ Features
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - **Streamlit UI** with live chat interface  
 
@@ -35,7 +39,9 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 - **Lightweight** and runs locally with no GPU  
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## :laptop: Demo
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![Bioinformatics Chatbot](https://drive.google.com/file/d/1dlbNz8J822lMk_KuF72fkyyL0A94R3AI/view?usp=sharing)
 
