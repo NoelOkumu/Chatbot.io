@@ -9,21 +9,21 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 3 [Installation](#-installation)
  
- - [Tools and Dependencies](#-tools and dependencies)
+ - [Tools and Dependencies](#-tools-and-dependencies)
  
  - [Configuration](#-configuration)
  
- - [Scripting and Running the app](#-scripting and running app) 
+4 [Scripting and Running the app](#-scripting-and-running-app) 
 
-4 [Project Structure](#-project-structure)
+5 [Project Structure](#-project-structure)
 
-5 [How the Chatbot Works](#-how-the-chatbot-works)
+6 [How the Chatbot Works](#-how-the-chatbot-works)
 
  - [Fetching Results from APIFree (a Large Language Model(LLM))]
 
  - [Creating a Graphic User using Streamlit for End-User)
    
-6 [License](#-license)
+7 [License](#-license)
 
 ## ✨ Features
 
@@ -35,15 +35,15 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 - **Lightweight** and runs locally with no GPU  
 
-## 💻 Demo
+## :laptop: Demo
 
 ![Bioinformatics Chatbot](https://drive.google.com/file/d/1dlbNz8J822lMk_KuF72fkyyL0A94R3AI/view?usp=sharing)
 
-**_Bioinformatics_ chatbot*
+**_Bioinformatics_ chatbot**
 
-##  Installation
+## :toolkit: Installation
 
-*🧰 Tools and Dependencies*
+* Tools and Dependencies*
 
 - [x] Ensure Python (>=3.8) is installed.
 
@@ -67,7 +67,8 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
   `streamlit hello`
 
-- *🏃 Scripting and Running the app*
+## 🏃 Scripting and Running the app*
+
 1. Create a venv environment:
  
    `python -m venv chatbot_env`
@@ -76,11 +77,11 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
  
    `source chatbot_env/bin/activate`
    
-3. Choose and Configure  [*_ApiFreeLLM_*](https://www.apifreellm.com/?utm_source=chatgpt.com) 
+3. Choose and Configure an LLM API:[*_ApiFreeLLM_*](https://www.apifreellm.com/?utm_source=chatgpt.com) 
 
 ApiFreeLLM is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, you can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP.
 
-   3.1 Configuration of our API request
+   *_Configuration of our API request_*
 
 To avoid repeatedly changing hard-coded values like API URLs, it’s best practice to store them in a configuration file. This makes it easy to update or switch APIs, change environments, or add keys later without modifying your entire codebase. Typical configuration values include TIMEOUT, API_URL, and API_KEY. Since ApiFreeLLM doesn’t require an API key, it remains fully open-access and simple to integrate.
    
