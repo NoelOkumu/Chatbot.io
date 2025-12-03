@@ -21,15 +21,15 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 6 [How the Chatbot Works](#-how-the-chatbot-works)
 
- - [Fetching Results from APIFree (a Large Language Model(LLM))]
+ - [Fetching Results from APIFree (a Large Language Model(LLM))](#-Fetching-Results-from-APIFree (aLarge Language Model(LLM))
 
- - [Creating a Graphic User using Streamlit for End-User)
+ - [Creating a Graphic User using Streamlit for End-User](#-Creating-a-Graphic-User-using-Streamlit-for-End-User)
    
 7 [License](#-license)
 
-# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## ✨ Features
-# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+# ✨ Features
+---
 
 - **Streamlit UI** with live chat interface  
 
