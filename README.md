@@ -25,7 +25,20 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
    
 7 [Acknowledgement](#-acknowledgement)
 
+---
+## 🔀 Project Structure
 
+   ![Chatbot_build_Structure](https://github.com/NoelOkumu/Chatbot.io/blob/main/annah_env/Images/Screenshot%20From%202025-12-04%2008-55-28.png?raw=true)
+
+### a) Fetching data from a Large Language Model
+
+  Large Language Models(LLMs) are being used across diverse fields for tasks involving human language. Application Programming Interfaces (APIs), on the other hand, aid in connecting multiple platforms while allowing machines to talk to machines without manual input. This project makes use of a large language model's API to automate processes, enhance productivity, and enable more natural computer interaction by bioinformaticians as they try to access solutions to problems they face in their omics analysis workflows.
+
+  ApiFreeLLM, which was used in this workflow, is a free, no-signup API that lets you send simple chat requests instantly using a single POST endpoint. With just a JSON message, a user can start interacting with the model right away, making it perfect for quick prototypes, demos, and lightweight applications. It’s fast, easy to use, and accessible to anyone, with a modest rate limit of about one request every five seconds per IP. To possibly detect some keywords that make the responses more bioinformatics-aware, some key terminologies frequently used in omics research were added (e.g., “bioinformatics”, “data analysis”) that would accommodate, send, and fetch different prompts or route to special responses.
+
+### b) Creating a Graphic User Interface for End User
+
+  Streamlit is a free, open-source Python library that creates tools that can display data and collect parameters for modelling. With a few lines of code, Streamlit can deploy models easily and quickly while being compatible with the majority of existing Python libraries: Pandas, Matplotlib, Seaborn, Plotly, Keras, Pytorch, and SymPy. Streamlit was used to customise the User Interface for Bioinformaticians and Life Scientists involved in Life Science Research. The documentation found in this repository provides scripts that were used for both data fetching and creating a virtual user interface.
 ## ✨ Features
 
 - **Streamlit UI** with live chat interface  
