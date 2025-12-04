@@ -19,9 +19,9 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 6 [Project Structure](#-project-structure)
 
- - [Fetching Results from APIFree (a Large Language Model(LLM))](#-Fetching-Results-from-APIFree-(aLarge-Language-Model))
+ - [Fetching Results from APIFree](#-Fetching-Results-from-APIFree-(aLarge-Language-Model))
 
- - [Creating a Graphic User using Streamlit for End-User](#-Creating-a-Graphic-User-using-Streamlit-for-End-User)
+ - [Creating a Graphic User using Streamlit](#-Creating-a-Graphic-User-using-Streamlit-for-End-User)
    
 7 [Acknowledgement](#-acknowledgement)
 
