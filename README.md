@@ -9,23 +9,24 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 
 2 [Demo](#-demo)
 
-3 [Installation](#-installation)
- 
- - [Tools and Dependencies](#-tools-and-dependencies)
- 
- - [Configuration](#-configuration)
- 
-4 [Scripting and Running the app](#-scripting-and-running-app) 
-
-6 [Project Structure](#-project-structure)
+3 [Project Structure](#-project-structure)
 
  - [Fetching Results from APIFree](#-Fetching-Results-from-APIFree-(aLarge-Language-Model))
 
  - [Creating a Graphic User using Streamlit](#-Creating-a-Graphic-User-using-Streamlit-for-End-User)
    
+
+4 [Installation](#-installation)
+ 
+ - [Tools and Dependencies](#-tools-and-dependencies)
+ 
+ - [Configuration](#-configuration)
+ 
+6 [Scripting and Running the app](#-scripting-and-running-app) 
+
 7 [Acknowledgement](#-acknowledgement)
 
----
+
 ## 🔀 Project Structure
 
    ![Chatbot_build_Structure](https://github.com/NoelOkumu/Chatbot.io/blob/main/annah_env/Images/Screenshot%20From%202025-12-04%2008-55-28.png?raw=true)
