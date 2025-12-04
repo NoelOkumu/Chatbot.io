@@ -158,7 +158,7 @@ To avoid repeatedly changing hard-coded values like API URLs, it’s best practi
 ---
 # Project Structure
 
--[Chatbot_build_Structure](https://drive.google.com/file/d/1xTrumshD8615CZnqFjk5S3NA7ybcaHjn/view?usp=sharing)
+![Chatbot_build_Structure](https://drive.google.com/file/d/1xTrumshD8615CZnqFjk5S3NA7ybcaHjn/view?usp=sharing)
  
 
    
