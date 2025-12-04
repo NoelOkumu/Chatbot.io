@@ -26,7 +26,7 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 7 [Acknowledgement](#-acknowledgement)
 
 
-# ✨ Features
+## ✨ Features
 
 - **Streamlit UI** with live chat interface  
 
@@ -37,14 +37,14 @@ A lightweight chatbot built using Streamlit and the Free LLM API. Includes a cle
 - **Lightweight** and runs locally with no GPU  
 
 ---
-# 🧑‍💻 Demo
+## 🧑‍💻 Demo
 
-![Bioinformatics Chatbot](https://drive.google.com/file/d/1dlbNz8J822lMk_KuF72fkyyL0A94R3AI/view?usp=sharing)
+![Bioinformatics Chatbot](https://raw.githubusercontent.com/NoelOkumu/Chatbot.io/b37ce2c907929ad41719432c0ccd078b8cfb315b/annah_env/Images/Screenshot%20From%202025-12-03%2015-37-14.png))
 
 ---
-# 🧰 Installation
+## 🧰 Installation
 
-##* 🛠️ Tools and Dependencies*
+### * 🛠️ Tools and Dependencies*
 
 - [x] Ensure Python (>=3.8) is installed.
 
@@ -173,7 +173,7 @@ To avoid repeatedly changing hard-coded values like API URLs, it’s best practi
 - [Streamlit](https://docs.streamlit.io/get-started)
 - [APIFree LLM](https://www.apifreellm.com/?utm_source=chatgpt.com)
   
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 This project uses **Streamlit** for rapid interactive app development and **APIFree LLM** for free large-language-model API access.  
 Much appreciation to both communities for supporting open and accessible research tools.
